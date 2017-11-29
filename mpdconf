@@ -1,3 +1,5 @@
+#vim: ft=config
+
 music_directory		"/home/user/newMusic"
 playlist_directory		"/home/user/newMusic"
 db_file			"/home/user/.mpd/mpd.db"

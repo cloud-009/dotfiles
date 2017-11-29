@@ -1,0 +1,110 @@
+!-------------------------------------------------------------------------------
+! Xft settings
+!-------------------------------------------------------------------------------
+
+Xft.dpi:                    96
+Xft.antialias:              false
+Xft.rgba:                   rgba
+Xft.hinting:                true
+Xft.hintstyle:              hintslight
+Xcursor.theme:              Breeze-Default
+
+!-------------------------------------------------------------------------------
+! URxvt settings
+! Solarized (http://ethanschoonover.com/solarized)
+! More info at:
+! http://pod.tst.eu/http://cvs.schmorp.de/rxvt-unicode/doc/rxvt.1.pod
+!-------------------------------------------------------------------------------
+
+URxvt.urgentOnBell: True
+URxvt.depth:                32
+URxvt.color12:rgb:5c/5c/ff
+URxvt.geometry:             90x30
+URxvt.transparent:          true
+URxvt.shading:		        20
+URxvt.fading:               30
+! URxvt.urgentOnBell:       true
+! URxvt.visualBell:         true
+URxvt.loginShell:           true
+URxvt.saveLines:            100000
+URxvt.internalBorder:       3
+URxvt.lineSpace:            0
+! URxvt.termName:		rxvt-unicode-256color
+URxvt.termName:		xterm
+URxvt.inputMethod:  ibus
+!URxvt.preeditType:  OverTheSpot
+
+! Fonts
+URxvt.allow_bold:           true
+/* URxvt.font:                 -*-sansserif-medium-r-normal-*-12-120-72-72-c-60-iso8859-1 */
+!urxvt*font: xft:Terminus:pixelsize=13:antialias=true:hinting=true,xft:Inconsolata\ for\ Powerline:pixelsize=13
+URxvt*font: xft:Source\ Code\ Pro\ Medium:pixelsize=15:antialias=true:hinting=true,xft:Source\ Code\ Pro\ Medium:pixelsize=15:antialias=true:hinting=true,xft:Terminus:pixelsize=15:antialias=true:hinting=true
+URxvt*boldFont: xft:Source\ Code\ Pro:style=bold:pixelsize=15:hinting=true:antialias=true
+URxvt*italicFont: xft:Soure\ Code\ Pro:style=italic:pixelsize=15:hinting=true:antialias=true
+!URxvt*font: xft:Hack:pixelsize=10:antialias=true:hinting=true
+!URXvt*boldFont: xft:Hack:style=bold:pixelsize=10:antialias=ture:hinting=true
+
+! Fix font space
+URxvt.letterSpace: 0
+
+! Scrollbar
+URxvt.scrollStyle:          rxvt
+URxvt.scrollBar:            false
+
+! Perl extensions
+URxvt.perl-ext-common:      default,matcher
+URxvt.matcher.button:       1
+URxvt.url-launcher:          firefox
+
+! Cursor
+URxvt.cursorBlink:          true
+URxvt.cursorColor:          #657b83
+URxvt.cursorUnderline:      false
+
+! Pointer
+URxvt.pointerBlank:         true
+
+!!Source http://github.com/altercation/solarized
+
+URxvt*xftAntialias: true
+
+!!Color from http://terminal.sexy Xcolors.net/Gnometerm theme
+
+
+
+! special
+*.foreground:   #c5c8c6
+*.background:   #1d1f21
+*.cursorColor:  #c5c8c6
+
+! black
+*.color0:       #282a2e
+*.color8:       #373b41
+
+! red
+*.color1:       #a54242
+*.color9:       #cc6666
+
+! green
+*.color2:       #8c9440
+*.color10:      #b5bd68
+
+! yellow
+*.color3:       #de935f
+*.color11:      #f0c674
+
+! blue
+*.color4:       #5f819d
+*.color12:      #81a2be
+
+! magenta
+*.color5:       #85678f
+*.color13:      #b294bb
+
+! cyan
+*.color6:       #5e8d87
+*.color14:      #8abeb7
+
+! white
+*.color7:       #707880
+*.color15:      #c5c8c6
