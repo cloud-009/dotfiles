@@ -13,6 +13,7 @@ theme.wallpaper = "/home/user/Downloads/Walls/arya6.jpg"
 -- }}}
 
 -- {{{ Styles
+theme.useless_gap   = 0
 theme.font      = "sans 8"
 theme.font_color = "#191919"
 
@@ -27,7 +28,7 @@ theme.bg_systray = theme.bg_normal
 -- }}}
 
 -- {{{ Borders
-theme.border_width  = 2
+theme.border_width  = 1
 theme.border_normal = "#3F3F3F"
 theme.border_focus  = "#6F6F6F"
 theme.border_marked = "#CC9393"
